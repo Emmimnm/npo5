@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+#tasks {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#task-list {
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.task-content {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.delete-button {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#new-task {
+    width: 100%;
+    padding: 5px;
+}
+
+.edit-input {
+    width: 100%;
+    padding: 3px;
+}
